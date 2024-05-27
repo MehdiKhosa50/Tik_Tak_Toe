@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.newGame-btn,
+.reset-btn {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 50px;
+    border-radius: 10px;
+    color: rgb(233, 233, 240);
+    background-color: black;
+    font-size: calc(2vw + 2vh + 1vmin); /* Responsive font size */
+    width: 100px;
+    height: 100px;
+}
